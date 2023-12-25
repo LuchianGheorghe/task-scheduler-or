@@ -1,4 +1,4 @@
-Given a list of tasks with a priority, estimated number of work hours, and numbers of days until deadline like below, the program attempt to optimize the number of hours to work on each task on a given day.
+Given a list of tasks with a priority, estimated number of work hours, and number of days until deadline like below, the program attempts to optimize the number of hours to work on each task on a given day.
 
 ![image](https://github.com/LuchianGheorghe/task-scheduler-or/assets/73704963/152d84c2-a694-4834-a445-6d1f204ce887)
 
