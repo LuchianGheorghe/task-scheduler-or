@@ -2,7 +2,7 @@ import pandas as pd
 from pulp import LpMaximize, LpProblem, LpVariable, lpSum, LpStatus, value
 
 def main():
-    df = pd.read_excel('src/data/univeristy_tasks.xlsx')
+    df = pd.read_excel('src/data/work_tasks.xlsx')
 
     priority_dict = {"High": 3, "Normal": 2, "Low": 1}
     df['Numerical Priority'] = df['Priority'].map(priority_dict)
