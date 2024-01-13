@@ -41,8 +41,8 @@ def get_hours_allocation(df, priority_dict):
 
 def main():
     #df = pd.read_excel('src/data/work_tasks.xlsx')
-    df = pd.read_excel('src/data/university_tasks.xlsx')
-    #df = pd.read_excel('src/data/running_example_1.xlsx')
+    #df = pd.read_excel('src/data/university_tasks.xlsx')
+    df = pd.read_excel('src/data/running_example_1.xlsx')
     priority_dict = {"High": 3, "Normal": 2, "Low": 1}
     df['Numerical Priority'] = df['Priority'].map(priority_dict)
     default_hours_allocation = {df.loc[i, 'Task']: 0 for i in range(len(df['Task']))}
@@ -66,7 +66,7 @@ def main():
 
     print(df)
     print()
-    print('days: ' + str(days))
+    print('Days worked: ' + str(days))
 
 
 main()
