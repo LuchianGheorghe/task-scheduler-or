@@ -6,6 +6,11 @@ Values for the maximum number of hours to work in a day, and maximum number or t
 
 ![image](https://github.com/LuchianGheorghe/task-scheduler-or/assets/73704963/3b16c93b-c91d-49e7-9265-eb6a6226f3ac)
 
+LpVariables:
+
+![image](https://github.com/LuchianGheorghe/task-scheduler-or/assets/73704963/36b1eac9-c384-494b-9b07-ef772a9a857c)
+
+
 Objective function and constraints: 
 
 ![image](https://github.com/LuchianGheorghe/task-scheduler-or/assets/73704963/0cc49bac-82b3-4542-a924-368c4b840381)
